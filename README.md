@@ -15,7 +15,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
 1.  **Clonar el repositorio**
     ```sh
-    git clone <URL-DEL-REPOSITORIO>
+    git clone https://github.com/Edhezz/testLionStrategies.git
     cd LionStrategiesTest
     ```
 
@@ -24,7 +24,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
     ```json
     "ConnectionStrings": {
-      "DefaultConnection": "Host=localhost;Database=nombre_de_tu_bd;Username=tu_usuario;Password=tu_contraseña"
+      "DefaultConnection": "Host=localhost;Database=nombrebd;Username=usuario;Password=contraseña"
     }
     ```
 
@@ -38,7 +38,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
     ```sh
     dotnet run
     ```
-    La API estará disponible en `https://localhost:{puerto}` o `http://localhost:{puerto}`. El puerto se especifica en el archivo `Properties/launchSettings.json`. Una vez iniciada, puedes acceder a la documentación interactiva de Swagger en la ruta `/swagger` para probar los endpoints.
+    La API estará disponible en `https://localhost:5103`. El puerto se especifica en el archivo `Properties/launchSettings.json`. Una vez iniciada, puedes acceder a la documentación interactiva de Swagger en la ruta `/swagger` para probar los endpoints.
 
 ## Dependencias de Terceros
 
