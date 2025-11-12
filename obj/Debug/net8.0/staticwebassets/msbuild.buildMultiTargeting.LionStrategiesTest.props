@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LionStrategiesTest.props" />
+</Project>
